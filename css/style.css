@@ -1,0 +1,68 @@
+.page {
+}
+.page-home {
+}
+.page-home-hero {
+}
+
+.hero-home {
+}
+
+.hero-home-container {
+}
+
+.hero-home-box {
+position: relative;
+background-color: gray;
+width: 40px;
+height: 300px;
+}
+
+.hero-home-texts {
+  transform: rotate(90deg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-home-overlay {
+  top: 0;
+  left: 0;
+  transition: transform  250ms ease-in-out;
+  transform: translateX(-100%);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  width: 200px;
+  height: 300px;
+}
+
+
+.hero-home-box:hover .hero-home-overlay {
+  transform: translateY(0);
+}
+
+.hero-home-box:hover{
+  transition: all 0s ease 0.1s;
+}
+
+
+.hero-home-list {
+  margin-left: 20px;
+}
+
+.hero-home-item {
+  margin-top: 10px;
+}
+
+.hero-home-text {
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.hero-home-text:hover {
+    color: yellow;
+}
+
